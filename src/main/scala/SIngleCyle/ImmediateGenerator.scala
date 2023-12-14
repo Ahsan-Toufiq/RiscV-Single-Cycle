@@ -5,7 +5,7 @@ import chisel3.util._
 
 class LM_IO_Interface_ImmdValGen extends Bundle {
     val instr = Input(UInt(32.W))
-    val PC = Input(UInt(10.W))
+    val PC = Input(UInt(32.W))
     val immd_se = Output(UInt(32.W))
 }
 class ImmdValGen extends Module {

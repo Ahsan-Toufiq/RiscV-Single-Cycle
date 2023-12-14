@@ -1,4 +1,10 @@
-[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/main/scala/SIngleCyle/InstructionMemory.scala:16:21: value address is not a member of chisel3.Bundle{val adrress: chisel3.UInt; val data: chisel3.UInt}[0m
-[0m[[0m[31merror[0m] [0m[0mio.data := imem (io.address)[0m
-[0m[[0m[31merror[0m] [0m[0m                    ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/main/scala/SIngleCyle/Top.scala:5:16: object iotesters is not a member of package chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.iotesters.{ChiselFlatSpec, Driver, PeekPokeTester}[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/main/scala/SIngleCyle/Top.scala:6:8: not found: object chiseltest[0m
+[0m[[0m[31merror[0m] [0m[0mimport chiseltest.experimental.TestOptionBuilder._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/main/scala/SIngleCyle/Top.scala:7:8: not found: object chiseltest[0m
+[0m[[0m[31merror[0m] [0m[0mimport chiseltest.internal.WriteVcdAnnotation[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

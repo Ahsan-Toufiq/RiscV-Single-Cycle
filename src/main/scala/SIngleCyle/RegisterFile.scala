@@ -9,12 +9,12 @@ class RegisterFile extends Module{
         val ReadReg2 = Input(UInt(5.W))
         val RegWrite = Input(Bool()) // Write Enable
         val WriteReg = Input(UInt(5.W))
-        val WriteData = Input(UInt(32.W))
-        val ReadData1 =Output(UInt(32.W))
-        val ReadData2 =Output(UInt(32.W))
+        val WriteData = Input(SInt(32.W))
+        val ReadData1 =Output(SInt(32.W))
+        val ReadData2 =Output(SInt(32.W))
     })
 
-    val File = RegInit(VecInit(Seq.fill(32)(0.U(32.W))))
+    val File = RegInit(VecInit(Seq.fill(32)(0.S(32.W))))
 
 
     io.ReadData1 := File(io.ReadReg1)
@@ -23,5 +23,5 @@ class RegisterFile extends Module{
     when(io.RegWrite){
         File(io.WriteReg) := io.WriteData    
     }
-    File(0) := 0.U 
+    File(0) := 0.S 
 }

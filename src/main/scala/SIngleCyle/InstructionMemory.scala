@@ -5,7 +5,7 @@ import chisel3.util._
 import chisel3.util.experimental.loadMemoryFromFile
 import scala.io.Source
 
-class InstructionMemory ( initFile : String ) extends Module with Config {
+class InstructionMemory ( initFile : String ) extends Module {
     val io = IO (new Bundle {
         val address = Input(UInt(32.W))    
         val data = Output(UInt(32.W))

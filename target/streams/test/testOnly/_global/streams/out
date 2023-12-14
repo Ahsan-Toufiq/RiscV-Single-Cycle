@@ -1,10 +1,23 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(SingleCycle.InstructionMemory_Test, org.scalatest.tools.Framework$$anon$1@71e61974, false, [SuiteSelector])[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mInstructionMemory_Test:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Instruction Memory Test[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 876 milliseconds.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(SingleCycle.Top_Test, org.scalatest.tools.Framework$$anon$1@1cd28cf2, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTop_Test:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Top Test *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.util.NoSuchElementException: key not found: InstructionMemory.imem[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.MapLike.default(MapLike.scala:235)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.MapLike.default$(MapLike.scala:234)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.AbstractMap.default(Map.scala:65)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.mutable.HashMap.apply(HashMap.scala:69)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.executable.MemoryInitializer.$anonfun$memoryMetadata$1(Memory.scala:657)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.List.flatMap(List.scala:366)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.executable.MemoryInitializer.<init>(Memory.scala:650)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.executable.ExecutionEngine.<init>(ExecutionEngine.scala:118)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.executable.ExecutionEngine$.apply(ExecutionEngine.scala:642)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.TreadleTester.<init>(TreadleTester.scala:44)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 781 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
-[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SingleCycle.InstructionMemory_Test[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	SingleCycle.Top_Test[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m

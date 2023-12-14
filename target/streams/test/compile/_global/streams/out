@@ -1,7 +1,97 @@
-[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/DataMemory_Test.scala:6:31: not found: type FreeSpec[0m
-[0m[[0m[31merror[0m] [0m[0mclass DataMemory_Test extends FreeSpec with ChiselScalatestTester {[0m
-[0m[[0m[31merror[0m] [0m[0m                              ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/DataMemory_Test.scala:7:22: value in is not a member of String[0m
-[0m[[0m[31merror[0m] [0m[0m  "Data Memory Test" in {[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:10:8: not found: object ALUOP[0m
+[0m[[0m[31merror[0m] [0m[0mimport ALUOP._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:16:36: not found: value ALU_ADD[0m
+[0m[[0m[31merror[0m] [0m[0m            val array_op = Array ( ALU_ADD , ALU_SUB , ALU_AND , ALU_OR , ALU_XOR , ALU_SLT ,[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:16:46: not found: value ALU_SUB[0m
+[0m[[0m[31merror[0m] [0m[0m            val array_op = Array ( ALU_ADD , ALU_SUB , ALU_AND , ALU_OR , ALU_XOR , ALU_SLT ,[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:16:56: not found: value ALU_AND[0m
+[0m[[0m[31merror[0m] [0m[0m            val array_op = Array ( ALU_ADD , ALU_SUB , ALU_AND , ALU_OR , ALU_XOR , ALU_SLT ,[0m
+[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:16:66: not found: value ALU_OR[0m
+[0m[[0m[31merror[0m] [0m[0m            val array_op = Array ( ALU_ADD , ALU_SUB , ALU_AND , ALU_OR , ALU_XOR , ALU_SLT ,[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:16:75: not found: value ALU_XOR[0m
+[0m[[0m[31merror[0m] [0m[0m            val array_op = Array ( ALU_ADD , ALU_SUB , ALU_AND , ALU_OR , ALU_XOR , ALU_SLT ,[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:16:85: not found: value ALU_SLT[0m
+[0m[[0m[31merror[0m] [0m[0m            val array_op = Array ( ALU_ADD , ALU_SUB , ALU_AND , ALU_OR , ALU_XOR , ALU_SLT ,[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:17:13: not found: value ALU_SLL[0m
+[0m[[0m[31merror[0m] [0m[0m            ALU_SLL , ALU_SLTU , ALU_SRL , ALU_SRA , ALU_COPY_A , ALU_COPY_B , ALU_XXX )[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:17:23: not found: value ALU_SLTU[0m
+[0m[[0m[31merror[0m] [0m[0m            ALU_SLL , ALU_SLTU , ALU_SRL , ALU_SRA , ALU_COPY_A , ALU_COPY_B , ALU_XXX )[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:17:34: not found: value ALU_SRL[0m
+[0m[[0m[31merror[0m] [0m[0m            ALU_SLL , ALU_SLTU , ALU_SRL , ALU_SRA , ALU_COPY_A , ALU_COPY_B , ALU_XXX )[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:17:44: not found: value ALU_SRA[0m
+[0m[[0m[31merror[0m] [0m[0m            ALU_SLL , ALU_SLTU , ALU_SRL , ALU_SRA , ALU_COPY_A , ALU_COPY_B , ALU_XXX )[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:17:54: not found: value ALU_COPY_A[0m
+[0m[[0m[31merror[0m] [0m[0m            ALU_SLL , ALU_SLTU , ALU_SRL , ALU_SRA , ALU_COPY_A , ALU_COPY_B , ALU_XXX )[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:17:67: not found: value ALU_COPY_B[0m
+[0m[[0m[31merror[0m] [0m[0m            ALU_SLL , ALU_SLTU , ALU_SRL , ALU_SRA , ALU_COPY_A , ALU_COPY_B , ALU_XXX )[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:17:80: not found: value ALU_XXX[0m
+[0m[[0m[31merror[0m] [0m[0m            ALU_SLL , ALU_SLTU , ALU_SRL , ALU_SRA , ALU_COPY_A , ALU_COPY_B , ALU_XXX )[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:26:26: not found: value ALU_ADD[0m
+[0m[[0m[31merror[0m] [0m[0m                    case ALU_ADD => src_a + src_b[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:27:26: not found: value ALU_SUB[0m
+[0m[[0m[31merror[0m] [0m[0m                    case ALU_SUB => src_a - src_b[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:28:26: not found: value ALU_AND[0m
+[0m[[0m[31merror[0m] [0m[0m                    case ALU_AND => src_a & src_b[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:29:26: not found: value ALU_OR[0m
+[0m[[0m[31merror[0m] [0m[0m                    case ALU_OR => src_a | src_b[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:30:26: not found: value ALU_XOR[0m
+[0m[[0m[31merror[0m] [0m[0m                    case ALU_XOR => src_a ^ src_b[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:31:26: not found: value ALU_SLT[0m
+[0m[[0m[31merror[0m] [0m[0m                    case ALU_SLT => if( src_a.toInt < src_b.toInt) 1 else 0[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:32:26: not found: value ALU_SLL[0m
+[0m[[0m[31merror[0m] [0m[0m                    case ALU_SLL => src_a << ( src_b & 0x1F )[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:33:26: not found: value ALU_SLTU[0m
+[0m[[0m[31merror[0m] [0m[0m                    case ALU_SLTU => if( src_a < src_b) 1 else 0[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:34:26: not found: value ALU_SRL[0m
+[0m[[0m[31merror[0m] [0m[0m                    case ALU_SRL => src_a >> ( src_b & 0x1F )[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:35:26: not found: value ALU_SRA[0m
+[0m[[0m[31merror[0m] [0m[0m                    case ALU_SRA => src_a . toInt >> ( src_b & 0x1F )[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:36:26: not found: value ALU_COPY_A[0m
+[0m[[0m[31merror[0m] [0m[0m                    case ALU_COPY_A => src_a[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:37:26: not found: value ALU_COPY_B[0m
+[0m[[0m[31merror[0m] [0m[0m                    case ALU_COPY_B => src_b[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:45:38: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.SInt[0m
+[0m[[0m[31merror[0m] [0m[0m                c.io.in_A.poke(src_a.U )[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:46:38: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.SInt[0m
+[0m[[0m[31merror[0m] [0m[0m                c.io.in_B.poke(src_b.U )[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:47:22: value ALU_control is not a member of chisel3.Bundle{val in_A: chisel3.SInt; val in_B: chisel3.SInt; val alu_Op: chisel3.UInt; val out: chisel3.SInt; val branch: chisel3.Bool}[0m
+[0m[[0m[31merror[0m] [0m[0m                c.io.ALU_control.poke(aluop)[0m
 [0m[[0m[31merror[0m] [0m[0m                     ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/ALU_Test.scala:49:42: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.SInt[0m
+[0m[[0m[31merror[0m] [0m[0m                c.io.out.expect(result1_.asUInt )[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m30 errors found[0m

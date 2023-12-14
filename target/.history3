@@ -16,3 +16,5 @@
 1702536893607:testOnly SingleCycle.InstructionMemory_Test -- -DwriteVcd=1
 1702550213104:sbt
 1702550220974:exit
+1702578932732:testOnly SingleCycle.Top_Test -- -DwriteVcd=1
+1702583442281:exit
