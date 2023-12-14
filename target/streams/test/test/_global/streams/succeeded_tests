@@ -1,0 +1,11 @@
+#Successful Tests
+#Thu Dec 14 10:03:50 AST 2023
+SingleCycle.Control_Test=1702458308085
+SingleCycle.RegisterFile_Test=1702474976701
+SingleCycle.ImmediateGenerator_Test=1702477601024
+SingleCycle.ProgramCounter_Test=1702478353934
+SingleCycle.PC4_Test=1702478637650
+SingleCycle.ALU_Test=1702462179733
+SingleCycle.PC_Test=1702478785763
+SingleCycle.InstructionMemory_Test=1702537430896
+SingleCycle.DataMemory_Test=1702479882503

@@ -1,0 +1,67 @@
+$date
+2023-12-14T07:03+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module InstructionMemory $end
+ $var wire 32 " imem $end
+ $var wire 32 # io_address $end
+ $var wire 1 & clock $end
+ $var wire 32 ( io_data $end
+ $var wire 1 ) reset $end
+  $scope module imem $end
+    $scope module io_data_MPORT $end
+     $var wire 1 ! clk $end
+     $var wire 10 $ addr $end
+     $var wire 1 % en $end
+     $var wire 32 ' data $end
+    $upscope $end
+  $upscope $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+b00000000000000000000000000000000 #
+0)
+0&
+b00000000000000000000000000000000 '
+b00000000000000000000000000000000 (
+1%
+0!
+b0000000000 $
+b00000000001000000000001010010011 "
+$end
+#0
+b00000000001000000000001010010011 '
+b00000000001000000000001010010011 (
+1)
+#1
+1!
+1&
+#6
+0!
+0&
+b00000000000000000000000000000001 #
+b00000000001000000000001010010100 '
+b0000000001 $
+b00000000001000000000001010010100 (
+0)
+#11
+1!
+1&
+#16
+0!
+0&
+b00000000000000000000000000000000 #
+b00000000001000000000001010010011 '
+b0000000000 $
+b00000000001000000000001010010011 (
+#21
+1!
+1&
+#26
+0&

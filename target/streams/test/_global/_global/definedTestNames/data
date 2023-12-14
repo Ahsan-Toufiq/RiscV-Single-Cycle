@@ -1,0 +1,1 @@
+["SingleCycle.DataMemory_Test","SingleCycle.Control_Test","SingleCycle.PC_Test","SingleCycle.ImmediateGenerator_Test","SingleCycle.InstructionMemory_Test","SingleCycle.PC4_Test","SingleCycle.ALU_Test","SingleCycle.RegisterFile_Test"]

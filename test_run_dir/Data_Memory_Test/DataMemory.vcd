@@ -1,0 +1,132 @@
+$date
+2023-12-13T15:04+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module DataMemory $end
+ $var wire 1 ! memory_io_outputData_MPORT_en_pipe_0 $end
+ $var wire 1 " io_read $end
+ $var wire 1 # io_write $end
+ $var wire 32 % io_address $end
+ $var wire 10 ) memory_io_outputData_MPORT_addr_pipe_0 $end
+ $var wire 32 , memory $end
+ $var wire 1 / clock $end
+ $var wire 32 1 io_data $end
+ $var wire 32 6 io_outputData $end
+ $var wire 1 7 reset $end
+  $scope module memory $end
+   $var wire 32 3 MPORT $end
+    $scope module MPORT $end
+     $var wire 32 $ data $end
+     $var wire 1 & en $end
+     $var wire 10 ' pipeline_addr_0 $end
+     $var wire 1 ( clk $end
+     $var wire 1 . mask $end
+     $var wire 1 0 pipeline_valid_0 $end
+     $var wire 1 2 valid $end
+     $var wire 32 4 pipeline_data_0 $end
+     $var wire 10 5 addr $end
+    $upscope $end
+    $scope module io_outputData_MPORT $end
+     $var wire 10 * addr $end
+     $var wire 1 + en $end
+     $var wire 1 - clk $end
+     $var wire 32 8 data $end
+    $upscope $end
+  $upscope $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0&
+b00000000000000000000000000000000 6
+0-
+0/
+b0000000000 5
+0!
+b0000000000 '
+00
+b00000000000000000000000000000000 1
+0(
+07
+0"
+b00000000000000000000000000000000 8
+1.
+0#
+b0000000000 )
+b0000000000 *
+0+
+b00000000000000000000000000000000 ,
+b00000000000000000000000000000000 $
+b00000000000000000000000000000000 3
+02
+b00000000000000000000000000000000 %
+b00000000000000000000000000000000 4
+$end
+#0
+17
+#1
+1-
+1(
+1/
+#6
+0-
+b00000000000000000000000000000101 %
+b00000000000000000000000000101010 1
+1&
+b0000000101 5
+1#
+12
+b00000000000000000000000000101010 $
+0(
+07
+0/
+#11
+10
+1-
+b00000000000000000000000000101010 4
+b0000000101 '
+1(
+1/
+#16
+0-
+1"
+0&
+0#
+02
+0(
+0/
+#21
+1!
+00
+1-
+b00000000000000000000000000101010 8
+b0000000101 *
+b00000000000000000000000000101010 6
+1+
+1(
+1/
+b0000000101 )
+#26
+0-
+b00000000000000000000000000000000 %
+0"
+b00000000000000000000000000000000 1
+b0000000000 5
+b00000000000000000000000000000000 $
+0(
+0/
+#31
+0!
+1-
+b00000000000000000000000000000000 4
+b0000000000 '
+0+
+1(
+1/
+#36
+0/

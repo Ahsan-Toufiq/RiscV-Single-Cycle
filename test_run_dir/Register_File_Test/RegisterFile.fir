@@ -1,0 +1,48 @@
+;buildInfoPackage: chisel3, version: 3.4.3, scalaVersion: 2.12.12, sbtVersion: 1.3.10
+circuit RegisterFile : 
+  module RegisterFile : 
+    input clock : Clock
+    input reset : UInt<1>
+    output io : {flip ReadReg1 : UInt<5>, flip ReadReg2 : UInt<5>, flip RegWrite : UInt<1>, flip WriteReg : UInt<5>, flip WriteData : UInt<32>, ReadData1 : UInt<32>, ReadData2 : UInt<32>}
+    
+    wire _File_WIRE : UInt<32>[32] @[RegisterFile.scala 17:31]
+    _File_WIRE[0] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[1] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[2] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[3] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[4] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[5] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[6] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[7] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[8] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[9] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[10] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[11] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[12] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[13] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[14] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[15] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[16] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[17] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[18] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[19] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[20] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[21] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[22] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[23] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[24] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[25] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[26] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[27] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[28] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[29] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[30] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    _File_WIRE[31] <= UInt<32>("h00") @[RegisterFile.scala 17:31]
+    reg File : UInt<32>[32], clock with : (reset => (reset, _File_WIRE)) @[RegisterFile.scala 17:23]
+    io.ReadData1 <= File[io.ReadReg1] @[RegisterFile.scala 20:18]
+    io.ReadData2 <= File[io.ReadReg2] @[RegisterFile.scala 21:18]
+    when io.RegWrite : @[RegisterFile.scala 23:22]
+      File[io.WriteReg] <= io.WriteData @[RegisterFile.scala 24:27]
+      skip @[RegisterFile.scala 23:22]
+    File[0] <= UInt<1>("h00") @[RegisterFile.scala 26:13]
+    

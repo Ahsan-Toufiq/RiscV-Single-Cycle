@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/main/scala/SIngleCyle/InstructionMemory.scala:16:21: value address is not a member of chisel3.Bundle{val adrress: chisel3.UInt; val data: chisel3.UInt}[0m
+[0m[[0m[31merror[0m] [0m[0mio.data := imem (io.address)[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

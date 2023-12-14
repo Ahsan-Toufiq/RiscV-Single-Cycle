@@ -1,0 +1,18 @@
+1702389935004:testOnly SingleCycle.ALU_Test -- -DWrite=1
+1702390056610:testOnly SingleCycle.ALU_Test -- -Dwrite=1
+1702390073980:testOnly SingleCycle.ALU_Test -- -DwriteVcd=1
+1702409155755:testOnly SingleCycle.Control_Test -- -DwriteVcd=1
+1702458358981:testOnly SingleCycle.ALU_Test -- -Dwrite=1
+1702462701382:testOnly SingleCycle.ImmediateGenrator_Test -- -Dwrite=1
+1702462760316:testOnly SingleCycle.ImmediateGenerator_Test -- -Dwrite=1
+1702462940061:testOnly SingleCycle.ImmediateGenerator_Test -- -DwriteVcd=1
+1702474347382:testOnly SingleCycle.RegisterFile_Test -- -DwriteVcd=1
+1702477581059:testOnly SingleCycle.ImmediateGenerator_Test -- -DwriteVcd=1
+1702478330847:testOnly SingleCycle.ProgramCOunter_Test -- -DwriteVcd=1
+1702478352569:testOnly SingleCycle.ProgramCounter_Test -- -DwriteVcd=1
+1702478636121:testOnly SingleCycle.PC4_Test -- -DwriteVcd=1
+1702478738575:testOnly SingleCycle.PC_Test -- -DwriteVcd=1
+1702479749780:testOnly SingleCycle.DataMemory_Test -- -DwriteVcd=1
+1702536893607:testOnly SingleCycle.InstructionMemory_Test -- -DwriteVcd=1
+1702550213104:sbt
+1702550220974:exit

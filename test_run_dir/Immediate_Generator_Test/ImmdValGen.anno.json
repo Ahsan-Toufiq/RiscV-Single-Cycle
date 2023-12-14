@@ -1,0 +1,22 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/Immediate_Generator_Test/ImmdValGen.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~ImmdValGen|ImmdValGen>io_immd_se",
+    "sources":[
+      "~ImmdValGen|ImmdValGen>io_instr",
+      "~ImmdValGen|ImmdValGen>io_PC"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/Immediate_Generator_Test"
+  }
+]

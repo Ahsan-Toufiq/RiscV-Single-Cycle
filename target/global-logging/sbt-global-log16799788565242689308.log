@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly SingleCycle.DataMemory_Test -- -DwriteVcd=1, Some(17f24ffb-3dda-4e86-a581-e3510cfb5c28), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/target/scala-2.12/test-classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/DataMemory_Test.scala:6:31: not found: type FreeSpec[0m
+[0m[[0m[31merror[0m] [0m[0mclass DataMemory_Test extends FreeSpec with ChiselScalatestTester {[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/test/scala/SingleCycle/DataMemory_Test.scala:7:22: value in is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  "Data Memory Test" in {[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Dec 13, 2023, 6:03:35 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

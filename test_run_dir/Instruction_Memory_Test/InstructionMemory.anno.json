@@ -1,0 +1,28 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/Instruction_Memory_Test/InstructionMemory.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~InstructionMemory|InstructionMemory>io_data",
+    "sources":[
+      "~InstructionMemory|InstructionMemory>io_address"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.annotations.LoadMemoryAnnotation",
+    "target":"InstructionMemory.InstructionMemory.imem",
+    "fileName":"/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/InstructionMemory.txt",
+    "hexOrBinary":"h",
+    "originalMemoryNameOpt":"imem"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/Instruction_Memory_Test"
+  }
+]

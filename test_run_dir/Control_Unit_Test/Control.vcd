@@ -1,0 +1,469 @@
+$date
+2023-12-13T09:05+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module Control $end
+ $var wire 1 ! io_RegWrite $end
+ $var wire 1 " _GEN_37 $end
+ $var wire 2 # _GEN_22 $end
+ $var wire 1 $ _GEN_16 $end
+ $var wire 1 % _GEN_43 $end
+ $var wire 3 & io_ALU_op $end
+ $var wire 1 ' _T $end
+ $var wire 1 ( io_Branch $end
+ $var wire 2 ) _GEN_19 $end
+ $var wire 1 * _GEN_25 $end
+ $var wire 7 + io_opcode $end
+ $var wire 2 , io_Extend_sel $end
+ $var wire 2 - _GEN_13 $end
+ $var wire 2 . _GEN_57 $end
+ $var wire 2 / _GEN_8 $end
+ $var wire 2 0 io_Next_PC_select $end
+ $var wire 2 1 _GEN_39 $end
+ $var wire 1 2 _GEN_24 $end
+ $var wire 2 3 _GEN_30 $end
+ $var wire 2 4 _GEN_45 $end
+ $var wire 2 5 io_operand_A_sel $end
+ $var wire 2 6 _GEN_27 $end
+ $var wire 2 7 _GEN_48 $end
+ $var wire 2 8 _GEN_54 $end
+ $var wire 2 9 _GEN_12 $end
+ $var wire 2 : _GEN_36 $end
+ $var wire 1 ; io_MemWrite $end
+ $var wire 3 < _GEN_18 $end
+ $var wire 3 = _GEN_53 $end
+ $var wire 2 > _GEN_56 $end
+ $var wire 1 ? io_operand_B_sel $end
+ $var wire 1 @ _GEN_41 $end
+ $var wire 3 A _GEN_35 $end
+ $var wire 1 B clock $end
+ $var wire 1 C _GEN_50 $end
+ $var wire 3 D _GEN_44 $end
+ $var wire 2 E _GEN_38 $end
+ $var wire 1 F _GEN_17 $end
+ $var wire 1 G io_MemRead $end
+ $var wire 3 H _GEN_26 $end
+ $var wire 1 I _GEN_32 $end
+ $var wire 2 J _GEN_47 $end
+ $var wire 1 K _GEN_11 $end
+ $var wire 1 L io_MemToReg $end
+ $var wire 1 M _GEN_20 $end
+ $var wire 1 N _GEN_29 $end
+ $var wire 2 O _GEN_14 $end
+ $var wire 1 P _GEN_52 $end
+ $var wire 1 Q reset $end
+ $var wire 1 R _GEN_46 $end
+ $var wire 1 S _GEN_34 $end
+ $var wire 1 T _GEN_28 $end
+ $var wire 1 U _GEN_49 $end
+ $var wire 1 V _GEN_40 $end
+ $var wire 1 W _GEN_55 $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0%
+b00 .
+0C
+0;
+b00 E
+0'
+b000 H
+0R
+b00 >
+b00 )
+0S
+0!
+0T
+0"
+0U
+b00 #
+0M
+b000 &
+b000 D
+b0000000 +
+0V
+0N
+b00 9
+b00 :
+b000 =
+02
+0P
+0Q
+b00 4
+0I
+b00 5
+b000 A
+b00 6
+0K
+b00 7
+0L
+b00 /
+b00 8
+b00 0
+b000 <
+b00 1
+0(
+0F
+b00 O
+0G
+0?
+b00 3
+0*
+0@
+b00 ,
+b00 J
+b00 -
+0$
+0B
+0W
+$end
+#0
+b01 3
+1Q
+b011 <
+b10 4
+b10 5
+1S
+1K
+b10 6
+b01 7
+b01 /
+b01 0
+1F
+b01 1
+1*
+b011 H
+b011 A
+b10 -
+1%
+b01 .
+b011 &
+b011 D
+b011 =
+b10 )
+1!
+b10 8
+b01 #
+b11 9
+b01 O
+b10 :
+1P
+#1
+1B
+#6
+0B
+0Q
+b00 0
+1?
+b100 &
+1G
+b00 5
+1'
+b0000011 +
+1L
+1(
+1;
+#11
+1B
+#16
+0B
+b00 .
+b111 &
+0'
+b111 =
+0L
+0(
+0!
+0?
+b00 8
+0G
+b0001111 +
+0P
+0;
+#21
+1B
+#26
+1!
+0B
+1?
+b00 4
+1R
+b001 &
+b001 D
+1W
+b0010011 +
+b001 =
+b00 7
+1P
+#31
+1B
+#36
+0!
+0B
+0?
+b10 4
+0R
+b111 &
+b011 D
+0W
+b0010111 +
+b111 =
+b01 7
+0P
+#41
+1B
+#46
+0B
+b0011011 +
+#51
+1B
+#56
+0B
+0%
+b00 4
+1R
+b10 J
+b101 &
+b101 D
+0S
+b10 E
+b101 =
+b00 7
+b10 >
+1?
+1"
+b00 1
+1U
+1V
+1W
+b0100011 +
+b00 :
+b101 A
+b10 ,
+1;
+#61
+1B
+#66
+b00 3
+0B
+1%
+0R
+b00 J
+b000 &
+b000 D
+1S
+b00 6
+b00 E
+b000 =
+b00 >
+1!
+0?
+0"
+0U
+0V
+b000 H
+0W
+b0110011 +
+b000 A
+1P
+b00 ,
+0;
+#71
+1B
+#76
+0B
+b110 <
+b11 4
+1R
+b01 J
+b11 5
+b110 D
+b110 &
+b11 6
+b01 E
+b110 =
+b01 >
+1M
+b11 )
+1T
+1?
+1N
+1"
+b11 8
+b00 #
+b110 H
+1W
+b0110111 +
+b11 :
+b110 A
+b01 ,
+#81
+1B
+#86
+b01 3
+b011 <
+b10 4
+0R
+b00 J
+b00 5
+b10 6
+b01 7
+0M
+0N
+b01 1
+b011 H
+b0111011 +
+b011 A
+b00 ,
+0B
+b111 &
+b011 D
+b00 E
+b111 =
+b00 >
+b10 )
+0!
+0T
+0?
+0"
+b00 8
+b01 #
+0W
+b10 :
+0P
+#91
+1B
+#96
+b010 <
+b00 4
+1R
+0S
+0K
+b00 6
+1M
+b01 0
+0F
+12
+0*
+b010 H
+b1100011 +
+1I
+b010 A
+0B
+b00 -
+0%
+1C
+b01 .
+b010 &
+b010 D
+b010 =
+1(
+b00 )
+1T
+1?
+1"
+1@
+b10 9
+1$
+1W
+b00 :
+#101
+1B
+#106
+b11 3
+b011 <
+b10 4
+0R
+b10 5
+1S
+1K
+b10 6
+b11 7
+b11 /
+0M
+b11 0
+1F
+b11 1
+02
+1*
+b011 H
+b1100111 +
+0I
+b011 A
+0B
+b10 -
+1%
+0C
+b11 .
+b011 &
+b011 D
+b011 =
+0(
+b10 )
+1!
+0T
+0?
+0"
+0@
+b10 8
+b11 #
+b11 9
+0$
+0W
+b11 O
+b10 :
+1P
+#111
+1B
+#116
+b01 3
+0B
+b01 0
+b01 1
+b01 .
+b01 #
+b1101111 +
+b01 O
+b01 7
+b01 /
+#121
+1B
+#126
+0!
+0B
+b00 0
+b00 .
+b00 8
+b00 5
+b111 &
+b1110011 +
+b111 =
+0P
+#131
+1B
+#136
+1!
+0B
+b01 0
+b01 .
+b10 8
+b10 5
+b011 &
+b1111111 +
+b011 =
+1P
+#141
+1B
+#146
+0B
+b0000000 +
+#151
+1B
+#156
+0B
