@@ -1,10 +1,6 @@
-[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/main/scala/SIngleCyle/Top.scala:5:16: object iotesters is not a member of package chisel3[0m
-[0m[[0m[31merror[0m] [0m[0mimport chisel3.iotesters.{ChiselFlatSpec, Driver, PeekPokeTester}[0m
-[0m[[0m[31merror[0m] [0m[0m               ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/main/scala/SIngleCyle/Top.scala:6:8: not found: object chiseltest[0m
-[0m[[0m[31merror[0m] [0m[0mimport chiseltest.experimental.TestOptionBuilder._[0m
-[0m[[0m[31merror[0m] [0m[0m       ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/main/scala/SIngleCyle/Top.scala:7:8: not found: object chiseltest[0m
-[0m[[0m[31merror[0m] [0m[0mimport chiseltest.internal.WriteVcdAnnotation[0m
-[0m[[0m[31merror[0m] [0m[0m       ^[0m
-[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/main/scala/SIngleCyle/Top.scala:13:12: missing argument list for method := in class Data[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `:= _` or `:=(_)(_,_)` instead of `:=`.[0m
+[0m[[0m[31merror[0m] [0m[0m    io.out := [0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

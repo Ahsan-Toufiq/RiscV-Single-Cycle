@@ -10,7 +10,6 @@ class Top extends Module {
         val out =  Output(UInt(2.W))
     })
     
-    io.out := DontCare
 
     val PC = Module(new PC)
     val PC4 = Module(new PC4)
@@ -22,6 +21,8 @@ class Top extends Module {
     val ALU = Module(new ALU)
     val ALU_Control = Module(new ALU_Control)
 
+    // IGNORE (RQUIRED TO RUN MODULE)
+    io.out := PC.io.out
 
     // Program Counter (PC4) 
     PC.io.in := MuxLookup(Control.io.Next_PC_select , 0.U, Array(
