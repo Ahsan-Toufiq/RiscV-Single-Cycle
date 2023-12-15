@@ -1,6 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/main/scala/SIngleCyle/Top.scala:13:12: missing argument list for method := in class Data[0m
-[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
-[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `:= _` or `:=(_)(_,_)` instead of `:=`.[0m
-[0m[[0m[31merror[0m] [0m[0m    io.out := [0m
-[0m[[0m[31merror[0m] [0m[0m           ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/main/scala/SIngleCyle/Top.scala:66:53: illegal start of simple expression[0m
+[0m[[0m[31merror[0m] [0m[0m    ALU.io.in_B := Mux(Control.io.operand_B_sel ,   .io.immd_se.asSInt , RegFile.io.ReadData2 )[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ahsan/Desktop/UIT/MERL/RiscV_SingleCycle/src/main/scala/SIngleCyle/Top.scala:73:1: ')' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

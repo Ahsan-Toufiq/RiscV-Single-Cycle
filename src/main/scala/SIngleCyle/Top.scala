@@ -38,7 +38,7 @@ class Top extends Module {
     ImmeGen.io.PC := PC.io.out 
 
     // Instruction Memory Input Wiring
-    InsMem.io.address := PC.io.out
+    InsMem.io.address := PC.io.out(11,2)
 
     // Control Unit Input Wiring
     Control.io.opcode := InsMem.io.data(6,0)
@@ -66,7 +66,7 @@ class Top extends Module {
     ALU.io.in_B := Mux(Control.io.operand_B_sel , ImmeGen.io.immd_se.asSInt , RegFile.io.ReadData2 )
 
     // Data Memory Wiring
-    DataMem.io.address := ALU.io.out.asUInt
+    DataMem.io.address := (ALU.io.out(9,2)).asUInt
     DataMem.io.data := RegFile.io.ReadData2
     DataMem.io.write := Control.io.MemWrite
     DataMem.io.read := Control.io.MemRead

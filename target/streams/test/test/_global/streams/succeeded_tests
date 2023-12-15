@@ -1,5 +1,5 @@
 #Successful Tests
-#Fri Dec 15 09:30:23 AST 2023
+#Fri Dec 15 16:01:54 AST 2023
 SingleCycle.Control_Test=1702458308085
 SingleCycle.RegisterFile_Test=1702474976701
 SingleCycle.ImmediateGenerator_Test=1702477601024
@@ -8,5 +8,5 @@ SingleCycle.PC4_Test=1702478637650
 SingleCycle.ALU_Test=1702462179733
 SingleCycle.PC_Test=1702478785763
 SingleCycle.InstructionMemory_Test=1702537430896
-SingleCycle.Top_Test=1702621823367
+SingleCycle.Top_Test=1702645314338
 SingleCycle.DataMemory_Test=1702479882503

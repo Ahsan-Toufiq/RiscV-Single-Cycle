@@ -14,4 +14,4 @@ val imem = Mem (1024, UInt(32.W))
 
 loadMemoryFromFile(imem, initFile)
 io.data := imem(io.address)
-}
+} 

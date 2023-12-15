@@ -12,7 +12,7 @@ class DataMemory extends Module {
     val outputData = Output(SInt(32.W))
   })
 
-  val memory = SyncReadMem(1024, SInt(32.W))
+  val memory = Mem(1024, SInt(32.W))
 
   when(io.write) {
     memory.write(io.address, io.data)

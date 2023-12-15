@@ -21,3 +21,5 @@
 1702583770232:testOnly SingleCycle.Top_Test -- -DwriteVcd=1
 1702622133601:sbt
 1702622136942:exit
+1702622828473:testOnly SingleCycle.Top_Test -- -DwriteVcd=1
+1702645645196:exit
